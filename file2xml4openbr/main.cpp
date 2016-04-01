@@ -48,6 +48,8 @@ int main(int argc, char *argv[])
                 out.writeEndElement();
             }
             out.writeEndDocument();
+            f.close();
+            xmlf.close();
         }
     }
     return 0;
