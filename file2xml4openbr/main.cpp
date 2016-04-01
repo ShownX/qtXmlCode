@@ -47,6 +47,7 @@ int main(int argc, char *argv[])
                 out.writeAttribute("file-format", ext);
                 out.writeEndElement();
             }
+            out.writeEndDocument();
         }
     }
     return 0;
